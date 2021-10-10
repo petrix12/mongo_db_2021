@@ -178,10 +178,34 @@
     + $ git push -u origin main
 
 ### Video 18. Documentos
-
-
+1. Ejemplo Script MongoDB:
+    ```json
+    {
+        _id: Object("6454558778854520"),
+        Name: "Fernando",
+        Year: 2002,
+        Status: "Gb"
+    }
+    ```
+    + Estructura:
+    ```json
+    {
+        Campo_1: Valor1,
+        Campo_2: Valor2,
+        ≡
+        Campo_n: Valorn,
+    }
+    ```
+2. Commit Video 18:
+    + $ git add .
+    + $ git commit -m "Commit 018: Documentos"
+    + $ git push -u origin main
 
 ### Video 19. Colecciones
+
+
+
+
 ### Video 20. Variables parte 1
 ### Video 21. Variables parte 2
 
