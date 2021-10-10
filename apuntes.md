@@ -98,10 +98,16 @@
 ## Sección 3: Instalando herramientas
 
 ### Video 12. Introdución
-
-
++ **Contenido**: indicaciones previas a la instalación de MongoDB.
+1. Commit Video 12:
+    + $ git add .
+    + $ git commit -m "Commit 012: Introdución"
+    + $ git push -u origin main
 
 ### Video 13. Instalando MongoDB
+
+
+
 ### Video 14. Iniciando Servicio MongoDB
 ### Video 15. Instalando Robo 3T
 
