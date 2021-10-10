@@ -210,8 +210,18 @@
     + $ git push -u origin main
 
 ### Video 20. Variables parte 1
-
-
+1. Tipos de variables:
+    + Nulo (null)
+    + Booleana (true, false)
+    + Enteras (números enteros)
+    + Decimales (números reales)
+    + Cadena de texto
+    + Fecha
+    + Expresiones regulares
+2. Commit Video 20:
+    + $ git add .
+    + $ git commit -m "Commit 020: Variables parte 1"
+    + $ git push -u origin main
 
 ### Video 21. Variables parte 2
 
