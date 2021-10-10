@@ -75,10 +75,16 @@
     + $ git push -u origin main
 
 ### Video 09. ¿Qué son los datos?
-
-
++ **Contenido**: explicación sobre los tipos de datos.
+1. Commit Video 09:
+    + $ git add .
+    + $ git commit -m "Commit 009: ¿Qué son los datos?"
+    + $ git push -u origin main
 
 ### Video 10. Sistemas gestores de base de datos
+
+
+
 ### Video 11. Diferencias entre base de datos relacionales y no relacionales
 
 
