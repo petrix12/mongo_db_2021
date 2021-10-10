@@ -17,14 +17,16 @@
 ## Sección 01: Introducción
 
 ### Video 001. Recomendaciones para una mejor experiencia en el curso
-+ **Contenido**: ***
++ **Contenido**: recomendación de como seguir el curso.
 1. Commit Video 001:
     + $ git add .
     + $ git commit -m "Commit 001: Recomendaciones para una mejor experiencia en el curso"
     + $ git push -u origin main
 
-
 ### Video 002. Antes de seguir avanzando
+
+
+
 ### Video 003. Sobre su Profesor. Álvaro Chirou
 ### Video 004. Sobre su Profesor. Walter Coto
 ### Video 005. Presentación de instructor Kevin García
