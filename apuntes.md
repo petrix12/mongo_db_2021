@@ -24,10 +24,16 @@
     + $ git push -u origin main
 
 ### Video 002. Antes de seguir avanzando
-
-
++ **Contenido**: funcionamiento del sistema de calificaciones de Udemy.
+1. Commit Video 002:
+    + $ git add .
+    + $ git commit -m "Commit 002: Antes de seguir avanzando"
+    + $ git push -u origin main
 
 ### Video 003. Sobre su Profesor. Álvaro Chirou
+
+
+
 ### Video 004. Sobre su Profesor. Walter Coto
 ### Video 005. Presentación de instructor Kevin García
 ### Video 006. Modalidad de entrega de tareas
