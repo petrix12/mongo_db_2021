@@ -58,7 +58,7 @@
     + $ git commit -m "Commit 006: Modalidad de entrega de tareas"
     + $ git push -u origin main
 
-## Sección 2: Fundamentos de base de datos
+## Sección 02: Fundamentos de base de datos
 
 ### Video 07. ¿Qué es un administrador de base de datos?
 + **Contenido**: funciones de un daministrador de base de datos.
@@ -95,7 +95,7 @@
     + $ git commit -m "Commit 011: Sistemas gestores de base de datos"
     + $ git push -u origin main
 
-## Sección 3: Instalando herramientas
+## Sección 03: Instalando herramientas
 
 ### Video 12. Introdución
 + **Contenido**: indicaciones previas a la instalación de MongoDB.
@@ -129,18 +129,46 @@
     + C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe
 2. Crear ruta para la ubicación de la base de datos:
     + C:\data\db
-3. Ejecutar **mongod.exe** en una terminal de windows.
+3. Ejecutar **mongod.exe** en una terminal de Windows.
     + $ mongod
     + **Nota**: cuando esta acción se ejecuta por primera vez se generan un conjunto de archivos y carpetas en **C:\data\db**. Estos datos no deben ser eliminados.
-4. Ejecutar **mongo** en otra terminal de windows para finalizar la iniciación del servicio de MongoDB.
+4. Ejecutar **mongo** en otra terminal de Windows para finalizar la iniciación del servicio de MongoDB.
     + $ mongo
 5. Commit Video 14:
     + $ git add .
-    + $ git commit -m "Commit 4: Iniciando Servicio MongoDB"
+    + $ git commit -m "Commit 014: Iniciando Servicio MongoDB"
     + $ git push -u origin main
 
 ### Video 15. Instalando Robo 3T
+1. Descargar Robo 3T en:
+    + https://robomongo.org
+2. Instaler Robo 3T:
+    + **Siguiente**.
+    + Aceptar términos en **Acepto**.
+    + Dejar directorio destino y **Siguiente**.
+    + Presionar **Instalar**.
+    + Dejar marcada la casilla **Ejecutar Robo 3T 1.X** y presionar **Terminar**.
+    + En el cuadro de diálogo **EULA** seleccionar **I agree** y dar clic en **Next**.
+    + Dar clic en **Finish**.
+    + En cuadro de diálogo **MongoDB Connections** dar clic en **Create**.
+    + Nombrar la conexión **localhost** y dar clic en **Save** y luego en **Connect**.
+        + **Nota**: para poder establecer conexión el servicio debe de estar iniciado.
+3. Commit Video 15:
+    + $ git add .
+    + $ git commit -m "Commit 015: Instalando Robo 3T"
+    + $ git push -u origin main
 
+## Sección 04: Fundamentos básicos de MongoDB
+
+### Video 16. Base de datos NoSQL
+
+
+
+### Video 17. Modelo de base de datos NoSQL
+### Video 18. Documentos
+### Video 19. Colecciones
+### Video 20. Variables parte 1
+### Video 21. Variables parte 2
 
 
 
@@ -151,8 +179,10 @@
 
 
     ≡
-    ```vue
+    ```json
     ```
-    ```js
-    ```
-    npm run serve
+
+## MongoDB
++ Para iniciar el servidor de MongoDB:
+    + Ejecutar **C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe** en una terminal de Windows:
+        + $ mongod
