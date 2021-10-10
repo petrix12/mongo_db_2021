@@ -105,8 +105,24 @@
     + $ git push -u origin main
 
 ### Video 13. Instalando MongoDB
-
-
+1. Ingresar a la página de descarga de MongoDB: https://www.mongodb.com/try/download/community
+2. En **Descarga disponibles** seleccionar:
+    + Versión: 5.03 (current)
+    + Plataforma: Windows
+    + Paquete: msi
+3. Descargar y ejecutar como administrador:
+    + **Next**.
+    + Aceptar términos y **Next**.
+    + Instalación personalizada y **Next**.
+    + Dejar todo como esta y **Next**.
+    + Deseleccionar **Install MongoDB as a Service** y **Next**.
+    + Deseleccionar **Install MongoDB Compas** y **Next**.
+    + Presionar **Install**.
+    + Presionar **Finish**.
+4. Commit Video 13:
+    + $ git add .
+    + $ git commit -m "Commit 013: Instalando MongoDB"
+    + $ git push -u origin main
 
 ### Video 14. Iniciando Servicio MongoDB
 ### Video 15. Instalando Robo 3T
