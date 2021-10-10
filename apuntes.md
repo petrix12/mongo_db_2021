@@ -4,7 +4,7 @@
 
 ## Antes de iniciar:
 1. Crear proyecto en la página de [GitHub](https://github.com) con el nombre: **mongo_db_2021**.
-    + **Description**: Proyecto para seguir el curso de Bases de datos MongoDB y NoSQL, creado por Alvaro Chirou, Walter Coto y Kevin García en Udemy.
+    + **Description**: Proyecto para seguir el curso de Bases de datos MongoDB y NoSQL, creado por Álvaro Chirou, Walter Coto y Kevin García en Udemy.
     + **Public**.
 2. En la ubicación raíz del proyecto en la terminal de la máquina local:
     + $ git init
@@ -31,10 +31,16 @@
     + $ git push -u origin main
 
 ### Video 003. Sobre su Profesor. Álvaro Chirou
-
-
++ **Contenido**: presentación de Álvaro Chirou.
+1. Commit Video 003:
+    + $ git add .
+    + $ git commit -m "Commit 003: Sobre su Profesor. Álvaro Chirou"
+    + $ git push -u origin main
 
 ### Video 004. Sobre su Profesor. Walter Coto
+
+
+
 ### Video 005. Presentación de instructor Kevin García
 ### Video 006. Modalidad de entrega de tareas
 
