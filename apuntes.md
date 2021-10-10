@@ -202,11 +202,17 @@
     + $ git push -u origin main
 
 ### Video 19. Colecciones
-
-
-
++ **Contenido**: principalmente indicar que las colecciones son un conjunto de documentos.
++ **Nota**: si queremos hacer una analogía con bases de datos SQL, las colecciones equivalen a las tablas y los documentos a filas.
+1. Commit Video 19:
+    + $ git add .
+    + $ git commit -m "Commit 019: Colecciones"
+    + $ git push -u origin main
 
 ### Video 20. Variables parte 1
+
+
+
 ### Video 21. Variables parte 2
 
 
