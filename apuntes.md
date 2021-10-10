@@ -161,7 +161,11 @@
 ## Sección 04: Fundamentos básicos de MongoDB
 
 ### Video 16. Base de datos NoSQL
-
++ **Contenido**: acerca de bases de datos NoSQL.
+1. Commit Video 16:
+    + $ git add .
+    + $ git commit -m "Commit 016: Base de datos NoSQL"
+    + $ git push -u origin main
 
 
 ### Video 17. Modelo de base de datos NoSQL
