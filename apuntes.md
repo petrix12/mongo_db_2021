@@ -1,6 +1,6 @@
 # Curso Completo de Bases de datos MongoDB y NoSQL
 + [URL del curso en Udemy](https://www.udemy.com/course/curso-completo-de-bases-de-datos-mongodb-y-nosql)
-+ [URL del repositorio en GitHub]()
++ [URL del repositorio en GitHub](https://github.com/petrix12/mongo_db_2021.git)
 
 ## Antes de iniciar:
 1. Crear proyecto en la página de [GitHub](https://github.com) con el nombre: **mongo_db_2021**.
@@ -45,8 +45,11 @@
     + $ git push -u origin main
 
 ### Video 005. Presentación de instructor Kevin García
-
-
++ **Contenido**: presentación de Kevin García.
+1. Commit Video 005:
+    + $ git add .
+    + $ git commit -m "Commit 005: Sobre su Profesor. Walter Coto"
+    + $ git push -u origin main
 
 ### Video 006. Modalidad de entrega de tareas
 
