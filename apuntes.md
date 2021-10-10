@@ -89,9 +89,21 @@
     + $ git push -u origin main
 
 ### Video 11. Diferencias entre base de datos relacionales y no relacionales
++ **Contenido**: deferencias principales entre los tipos de bases de datos SQL y NoSQL.
+1. Commit Video 11:
+    + $ git add .
+    + $ git commit -m "Commit 011: Sistemas gestores de base de datos"
+    + $ git push -u origin main
+
+## Sección 3: Instalando herramientas
+
+### Video 12. Introdución
 
 
 
+### Video 13. Instalando MongoDB
+### Video 14. Iniciando Servicio MongoDB
+### Video 15. Instalando Robo 3T
 
 0.35 - x
 1 - 93
