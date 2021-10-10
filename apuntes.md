@@ -68,10 +68,16 @@
     + $ git push -u origin main
 
 ### Video 08. Tipos de base de datos
-
-
++ **Contenido**: tipos de bases de datos.
+1. Commit Video 08:
+    + $ git add .
+    + $ git commit -m "Commit 008: Tipos de base de datos"
+    + $ git push -u origin main
 
 ### Video 09. ¿Qué son los datos?
+
+
+
 ### Video 10. Sistemas gestores de base de datos
 ### Video 11. Diferencias entre base de datos relacionales y no relacionales
 
