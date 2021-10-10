@@ -167,9 +167,20 @@
     + $ git commit -m "Commit 016: Base de datos NoSQL"
     + $ git push -u origin main
 
-
 ### Video 17. Modelo de base de datos NoSQL
+1. Modelos de base de datos NoSQL:
+    + Clave valor.
+    + Orientado a documentos.
+    + Basado en columnas.
+2. Commit Video 17:
+    + $ git add .
+    + $ git commit -m "Commit 017: Modelo de base de datos NoSQL"
+    + $ git push -u origin main
+
 ### Video 18. Documentos
+
+
+
 ### Video 19. Colecciones
 ### Video 20. Variables parte 1
 ### Video 21. Variables parte 2
