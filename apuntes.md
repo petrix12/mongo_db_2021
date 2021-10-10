@@ -16,42 +16,59 @@
 
 ## Sección 01: Introducción
 
-### Video 001. Recomendaciones para una mejor experiencia en el curso
+### Video 01. Recomendaciones para una mejor experiencia en el curso
 + **Contenido**: recomendación de como seguir el curso.
-1. Commit Video 001:
+1. Commit Video 01:
     + $ git add .
     + $ git commit -m "Commit 001: Recomendaciones para una mejor experiencia en el curso"
     + $ git push -u origin main
 
 ### Video 002. Antes de seguir avanzando
 + **Contenido**: funcionamiento del sistema de calificaciones de Udemy.
-1. Commit Video 002:
+1. Commit Video 02:
     + $ git add .
-    + $ git commit -m "Commit 002: Antes de seguir avanzando"
+    + $ git commit -m "Commit 02: Antes de seguir avanzando"
     + $ git push -u origin main
 
-### Video 003. Sobre su Profesor. Álvaro Chirou
+### Video 03. Sobre su Profesor. Álvaro Chirou
 + **Contenido**: presentación de Álvaro Chirou.
-1. Commit Video 003:
+1. Commit Video 03:
     + $ git add .
     + $ git commit -m "Commit 003: Sobre su Profesor. Álvaro Chirou"
     + $ git push -u origin main
 
-### Video 004. Sobre su Profesor. Walter Coto
+### Video 04. Sobre su Profesor. Walter Coto
 + **Contenido**: presentación de Walter Coto.
-1. Commit Video 004:
+1. Commit Video 04:
     + $ git add .
     + $ git commit -m "Commit 004: Sobre su Profesor. Walter Coto"
     + $ git push -u origin main
 
-### Video 005. Presentación de instructor Kevin García
+### Video 05. Presentación de instructor Kevin García
 + **Contenido**: presentación de Kevin García.
-1. Commit Video 005:
+1. Commit Video 05:
     + $ git add .
     + $ git commit -m "Commit 005: Sobre su Profesor. Walter Coto"
     + $ git push -u origin main
 
-### Video 006. Modalidad de entrega de tareas
+### Video 06. Modalidad de entrega de tareas
++ **Contenido**: forma en que se pueden colocar las tareas en la página del curso.
+1. Commit Video 06:
+    + $ git add .
+    + $ git commit -m "Commit 006: Modalidad de entrega de tareas"
+    + $ git push -u origin main
+
+## Sección 2: Fundamentos de base de datos
+
+### Video 07. ¿Qué es un administrador de base de datos?
+
+
+
+### Video 08. Tipos de base de datos
+### Video 09. ¿Qué son los datos?
+### Video 10. Sistemas gestores de base de datos
+### Video 11. Diferencias entre base de datos relacionales y no relacionales
+
 
 
 
