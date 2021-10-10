@@ -38,10 +38,16 @@
     + $ git push -u origin main
 
 ### Video 004. Sobre su Profesor. Walter Coto
-
-
++ **Contenido**: presentación de Walter Coto.
+1. Commit Video 004:
+    + $ git add .
+    + $ git commit -m "Commit 004: Sobre su Profesor. Walter Coto"
+    + $ git push -u origin main
 
 ### Video 005. Presentación de instructor Kevin García
+
+
+
 ### Video 006. Modalidad de entrega de tareas
 
 
