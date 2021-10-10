@@ -125,7 +125,25 @@
     + $ git push -u origin main
 
 ### Video 14. Iniciando Servicio MongoDB
+1. Ubicación de instalación de MongoDB:
+    + C:\Program Files\MongoDB\Server\5.0\bin\mongod.exe
+2. Crear ruta para la ubicación de la base de datos:
+    + C:\data\db
+3. Ejecutar **mongod.exe** en una terminal de windows.
+    + $ mongod
+    + **Nota**: cuando esta acción se ejecuta por primera vez se generan un conjunto de archivos y carpetas en **C:\data\db**. Estos datos no deben ser eliminados.
+4. Ejecutar **mongo** en otra terminal de windows para finalizar la iniciación del servicio de MongoDB.
+    + $ mongo
+5. Commit Video 14:
+    + $ git add .
+    + $ git commit -m "Commit 4: Iniciando Servicio MongoDB"
+    + $ git push -u origin main
+
 ### Video 15. Instalando Robo 3T
+
+
+
+
 
 0.35 - x
 1 - 93
