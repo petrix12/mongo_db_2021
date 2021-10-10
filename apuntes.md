@@ -82,8 +82,11 @@
     + $ git push -u origin main
 
 ### Video 10. Sistemas gestores de base de datos
-
-
++ **Contenido**: presentación de algunos gestores de bases de datos.
+1. Commit Video 10:
+    + $ git add .
+    + $ git commit -m "Commit 010: Sistemas gestores de base de datos"
+    + $ git push -u origin main
 
 ### Video 11. Diferencias entre base de datos relacionales y no relacionales
 
