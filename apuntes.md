@@ -224,7 +224,25 @@
     + $ git push -u origin main
 
 ### Video 21. Variables parte 2
+1. Otros tipos de variables:
+    + Arrays
+    + Documentos embebidos
+    + Identificadores de objetos
+    + Datos binarios
+    + Código JavaScript
+2. Commit Video 21:
+    + $ git add .
+    + $ git commit -m "Commit 021: Variables parte 2"
+    + $ git push -u origin main
 
+## Sección 5: Aprendiendo a manejar MongoDB
+
+### Video 22. Aprendiendo a utilizar MongoDB
+
+
+
+### Video 23. Aprendiendo a utilizar la Shell de MongoDB
+### Video 24. Creando la base de datos en MongoDB
 
 
 
