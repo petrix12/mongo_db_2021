@@ -23,7 +23,7 @@
     + $ git commit -m "Commit 001: Recomendaciones para una mejor experiencia en el curso"
     + $ git push -u origin main
 
-### Video 002. Antes de seguir avanzando
+### Video 02. Antes de seguir avanzando
 + **Contenido**: funcionamiento del sistema de calificaciones de Udemy.
 1. Commit Video 02:
     + $ git add .
@@ -179,7 +179,7 @@
 
 ### Video 18. Documentos
 1. Ejemplo Script MongoDB:
-    ```json
+    ```
     {
         _id: Object("6454558778854520"),
         Name: "Fernando",
@@ -188,7 +188,7 @@
     }
     ```
     + Estructura:
-    ```json
+    ```
     {
         Campo_1: Valor1,
         Campo_2: Valor2,
@@ -238,10 +238,48 @@
 ## Sección 5: Aprendiendo a manejar MongoDB
 
 ### Video 22. Aprendiendo a utilizar MongoDB
-
-
+1. Agregar MongoDB a las variables de entorno del sistemas:
+    + Buscar en Windows 10 **Editar las variables de entorno del sistema** para desplegar el cuadro de diálogo **Propiedades del sistema**.
+    + En la pestaña de **Opciones avanzadas** dar clic en **Variables de entorno...**.
+    + En el cuadro de diálogo **Varibles de entorno** seleccionar **Path** del grupo **Varibles de usuario para bazop** y dar clic en **Editar...**.
+    + En el cuadro de diálogo **Editar varible de entorno** dar clic en **Nuevo** y anexar la siguiente dirección:
+        + C:\Program Files\MongoDB\Server\5.0\bin
+    + Aceptar todos los cambios.
+2. Iniciar el servidor de MongoDB ejecutando en cualquier terminal:
+    + $ mongod
+3. Iniciar la base de datos MongoDB:
+    + $ mongo
+4. En la terminal de MongoDB puedo ejecutar operaciones básicas como:
+    + > 5 + 7
+5. En la terminal de MongoDB puedo ejecutar código de JavaScript como:
+    + > a =7
+    + > b = 3
+    + > a + b
+6. Para ver las bases de datos:
+    + > show dbs
+7. Crear un documento:
+    + > datos = { Nombre: "Abelardo", Edad: 47, Fecha: new Date() }
+8. Crear base de datos **principio** o situarse en ella en caso de que exista.
+    + > use principio
+    + **Nota**: esta base de datos comenzará a existir realmente hasta que se le añada una colección.
+9. Para saber en que base de datos estamos ubicados:
+    > db
+10. Crear colección **registros** en la base de datos actual (**principio**) con el documento **datos** que creamos anteriormente:
+    + > db.registros.insert(datos)
+    + **Nota**: con esta acción ya se ha creado la base de datos **principio** y la colección **registros**.
+11. Para ver el documento **datos**:
+    + > db.registros.find()
+12. Para salir de MongoDB:
+    + > exit
+13. Commit Video 22:
+    + $ git add .
+    + $ git commit -m "Commit 022: Aprendiendo a utilizar MongoDB"
+    + $ git push -u origin main
 
 ### Video 23. Aprendiendo a utilizar la Shell de MongoDB
+
+
+
 ### Video 24. Creando la base de datos en MongoDB
 
 
@@ -254,6 +292,14 @@
     ≡
     ```json
     ```
+
+
+git log --pretty=oneline
+git reset HEAD^ --soft
+git Push -f Origin main
+
+
+
 
 ## MongoDB
 + Para iniciar el servidor de MongoDB:
