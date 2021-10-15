@@ -277,8 +277,14 @@
     + $ git push -u origin main
 
 ### Video 23. Aprendiendo a utilizar la Shell de MongoDB
-
-
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Commit Video 23:
+    + $ git add .
+    + $ git commit -m "Commit 023: Aprendiendo a utilizar la Shell de MongoDB"
+    + $ git push -u origin main
 
 ### Video 24. Creando la base de datos en MongoDB
 
@@ -293,13 +299,13 @@
     ```json
     ```
 
-
-git log --pretty=oneline
-git reset HEAD^ --soft
-git Push -f Origin main
-
-
-
+## Comandos Git:
++ Historial de commit:
+    + git log --pretty=oneline
++ Borrar ultimo commit:
+    + git reset HEAD^ --soft
++ Forzar push
+    + git push origin -f
 
 ## MongoDB
 + Para iniciar el servidor de MongoDB:
