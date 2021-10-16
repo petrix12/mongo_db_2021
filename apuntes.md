@@ -235,7 +235,7 @@
     + $ git commit -m "Commit 021: Variables parte 2"
     + $ git push -u origin main
 
-## Sección 5: Aprendiendo a manejar MongoDB
+## Sección 05: Aprendiendo a manejar MongoDB
 
 ### Video 22. Aprendiendo a utilizar MongoDB
 1. Agregar MongoDB a las variables de entorno del sistemas:
@@ -281,13 +281,43 @@
     + $ mongod
 2. Ejecutar consola de MongoDB:
     + $ mongo
-3. Commit Video 23:
+3. Salir de MongoDB:
+    + > exit
+4. Commit Video 23:
     + $ git add .
     + $ git commit -m "Commit 023: Aprendiendo a utilizar la Shell de MongoDB"
     + $ git push -u origin main
 
 ### Video 24. Creando la base de datos en MongoDB
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Crear base de datos **base** o situarse en ella en caso de que exista.
+    + > use base
+    + **Nota**: esta base de datos comenzará a existir realmente hasta que se le añada una colección.
+4. Crear colección **estudiantes** en la base de datos actual (**base**):
+    + > db.estudiantes.insert({ Nombre: "Juan", Edad: 30, Estado: "casado", "fecha_registro": new Date() })
+    + **Nota**: con esta acción ya se ha creado la base de datos **principio** y la colección **registros**.
+5. Para ver los documentos de la colección **estudiantes**:
+    + > db.estudiantes.find()
+6. Salir de MongoDB:
+    + > exit
+7. Commit Video 24:
+    + $ git add .
+    + $ git commit -m "Commit 024: Creando la base de datos en MongoDB"
+    + $ git push -u origin main
 
+## Sección 06: Aprendiendo a insertar datos
+
+### Video 25. Insertando datos con insert
+Tarea 1: Ejercicio insert
+### Video 26. Insertando datos con insert en robo 3T
+### Video 27. Insertando datos con insert One
+Tarea 2: Ejercicio con InserOne
+### Video 28. Insertando datos con insert One en robo 3T
+### Video 29. Insertando Datos con insert Many
+### Video 30. Arreglos
 
 
 0.35 - x
