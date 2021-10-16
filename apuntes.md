@@ -366,8 +366,20 @@
     + $ git push -u origin main
 
 ### Video 27. Insertando datos con insert One
-
-
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Ir a la base de datos **principio**:
+    + use principio
+4. Crear nuevo documento con **insertOne**:
+    + > db.registros.insertOne({ Nombre: "Peter", Edad: 18, Estado: "Soltero", Cargo: "Gerente", Dui: 12345678, "Fecha_Ingreso": new Date() })
+5. Salir de MongoDB:
+    + > exit
+6.  Commit Video 27:
+    + $ git add .
+    + $ git commit -m "Commit 027: Insertando datos con insert One"
+    + $ git push -u origin main
 
 ### Tarea 02: Ejercicio con InserOne
 ### Video 28. Insertando datos con insert One en robo 3T
