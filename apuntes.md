@@ -329,31 +329,47 @@
     + $ git commit -m "Commit 024: Insertando datos con insert"
     + $ git push -u origin main
 
-
-
-
-
-
-Tarea 1: Ejercicio insert
-7. Tarea 1:
+### Tarea 01: Ejercicio insert
+1. Tarea 1:
     + Realizar o crear una base de datos la cual tenga diferentes datos:
         - Nombre
         - Genero
         - Edad
         - fecha
     + Solción:
+        + $ mongod
+        + $ mongo (en otra terminal)
         + > use bd1
-        + > db.datos.insert({ Nombre: "Pedro", Genero: "M", Edad: 49, "fecha": new Date() })
-        + > db.datos.insert({ Nombre: "Cesar", Genero: "M", Edad: 51, "fecha": new Date() })
-        + > db.datos.insert({ Nombre: "Ignacio", Genero: "M", Edad: 46, "fecha": new Date() })
-        + > db.datos.insert({ Nombre: "María", Genero: "F", Edad: 52, "fecha": new Date() })
-        + > db.datos.insert({ Nombre: "Abelardo", Genero: "M", Edad: 47, "fecha": new Date() })
+        + > db.datos.insert({ Nombre: "Pedro", Genero: "M", Edad: 49, fecha: new Date() })
+        + > db.datos.insert({ Nombre: "Cesar", Genero: "M", Edad: 51, fecha: new Date() })
+        + > db.datos.insert({ Nombre: "Ignacio", Genero: "M", Edad: 46, fecha: new Date() })
+        + > db.datos.insert({ Nombre: "María", Genero: "F", Edad: 52, fecha: new Date() })
+        + > db.datos.insert({ Nombre: "Abelardo", Genero: "M", Edad: 47, fecha: new Date() })
     + Para ver los documentos de forma más ordenada:
         + > db.getCollection('datos').find({}).pretty()
+        + > exit
 
 ### Video 26. Insertando datos con insert en robo 3T
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Ejecutar: **Robo 3T.exe** y conectar con la base de datos **localhost**.
+4. Seleccionar base de datos **principio** y dar clic en **Open Shell** del menú emergente.
+5. Ejecutar la siguiente línea de códigp:
+    + db.robo.insertOne({Ingreso: "insert_one", Fecha_Ingreso: new Date()})
+6. Salir de MongoDB:
+    + > exit
+7.  Commit Video 26:
+    + $ git add .
+    + $ git commit -m "Commit 026: Insertando datos con insert en robo 3T"
+    + $ git push -u origin main
+
 ### Video 27. Insertando datos con insert One
-Tarea 2: Ejercicio con InserOne
+
+
+
+### Tarea 02: Ejercicio con InserOne
 ### Video 28. Insertando datos con insert One en robo 3T
 ### Video 29. Insertando Datos con insert Many
 ### Video 30. Arreglos
