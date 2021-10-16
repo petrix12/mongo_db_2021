@@ -311,7 +311,46 @@
 ## Sección 06: Aprendiendo a insertar datos
 
 ### Video 25. Insertando datos con insert
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Ubicarse en la base de datos **principio**:
+    + > use principio 
+4. Crear nuevo documento:
+    + > db.registros.insert({ Nombre: "Fernando", Edad: 15, Estado: "Soltero", Cargo: "Empleado", "fecha_Ingreso": new Date() })
+5. Para ver los documentos de la colección **registros**:
+    + > db.getCollection('registros').find({})
+6. Ejecutar: **Robo 3T.exe** y conectar con la base de datos **localhost** para navegar por las distintas colecciones y documentos.
+7. Salir de MongoDB:
+    + > exit
+8.  Commit Video 24:
+    + $ git add .
+    + $ git commit -m "Commit 024: Insertando datos con insert"
+    + $ git push -u origin main
+
+
+
+
+
+
 Tarea 1: Ejercicio insert
+7. Tarea 1:
+    + Realizar o crear una base de datos la cual tenga diferentes datos:
+        - Nombre
+        - Genero
+        - Edad
+        - fecha
+    + Solción:
+        + > use bd1
+        + > db.datos.insert({ Nombre: "Pedro", Genero: "M", Edad: 49, "fecha": new Date() })
+        + > db.datos.insert({ Nombre: "Cesar", Genero: "M", Edad: 51, "fecha": new Date() })
+        + > db.datos.insert({ Nombre: "Ignacio", Genero: "M", Edad: 46, "fecha": new Date() })
+        + > db.datos.insert({ Nombre: "María", Genero: "F", Edad: 52, "fecha": new Date() })
+        + > db.datos.insert({ Nombre: "Abelardo", Genero: "M", Edad: 47, "fecha": new Date() })
+    + Para ver los documentos de forma más ordenada:
+        + > db.getCollection('datos').find({}).pretty()
+
 ### Video 26. Insertando datos con insert en robo 3T
 ### Video 27. Insertando datos con insert One
 Tarea 2: Ejercicio con InserOne
