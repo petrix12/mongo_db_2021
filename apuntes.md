@@ -400,12 +400,12 @@
     + $ git push -u origin main
 
 ### Video 28. Insertando datos con insert One en robo 3T
-
-6.  Commit Video 28:
++ **Contenido**: insertar registros con **insertOne** en **Robo 3T**.
+1.  Commit Video 28:
     + $ git add .
     + $ git commit -m "Commit 028: Insertando datos con insert One en robo 3T"
     + $ git push -u origin main
-    + 
+
 ### Video 29. Insertando Datos con insert Many
 
 
