@@ -324,7 +324,7 @@
 6. Ejecutar: **Robo 3T.exe** y conectar con la base de datos **localhost** para navegar por las distintas colecciones y documentos.
 7. Salir de MongoDB:
     + > exit
-8.  Commit Video 25:
+8. Commit Video 25:
     + $ git add .
     + $ git commit -m "Commit 025: Insertando datos con insert"
     + $ git push -u origin main
@@ -360,7 +360,7 @@
     + db.robo.insertOne({Ingreso: "insert_one", Fecha_Ingreso: new Date()})
 6. Salir de MongoDB:
     + > exit
-7.  Commit Video 26:
+7. Commit Video 26:
     + $ git add .
     + $ git commit -m "Commit 026: Insertando datos con insert en robo 3T"
     + $ git push -u origin main
@@ -376,7 +376,7 @@
     + > db.registros.insertOne({ Nombre: "Peter", Edad: 18, Estado: "Soltero", Cargo: "Gerente", Dui: 12345678, "Fecha_Ingreso": new Date() })
 5. Salir de MongoDB:
     + > exit
-6.  Commit Video 27:
+6. Commit Video 27:
     + $ git add .
     + $ git commit -m "Commit 027: Insertando datos con insert One"
     + $ git push -u origin main
@@ -394,26 +394,35 @@
     + db.sitios.insertOne({sitio: "Google", visitas: 733, compartidos: 512, created_at: new Date()})
     + db.sitios.insertOne({sitio: "Amazon", visitas: 933, compartidos: 712, created_at: new Date()})
     + db.sitios.insertOne({sitio: "Azure", visitas: 433, compartidos: 212, created_at: new Date()})
-5.  Commit Tarea 02:
+5. Commit Tarea 02:
     + $ git add .
     + $ git commit -m "Commit Tarea 02: Ejercicio con InserOne"
     + $ git push -u origin main
 
 ### Video 28. Insertando datos con insert One en robo 3T
 + **Contenido**: insertar registros con **insertOne** en **Robo 3T**.
-1.  Commit Video 28:
+1. Commit Video 28:
     + $ git add .
     + $ git commit -m "Commit 028: Insertando datos con insert One en robo 3T"
     + $ git push -u origin main
 
 ### Video 29. Insertando Datos con insert Many
 + **Contenido**: insertar registros con **insertMany** en **Robo 3T**.
-1.  Commit Video 29:
+1. Commit Video 29:
     + $ git add .
     + $ git commit -m "Commit 029: Insertando Datos con insert Many"
     + $ git push -u origin main
 
 ### Video 30. Arreglos
+1. Ejecutar en una terminal de MongoDB:
+    + > use arreglos
+    + > var arreglo = [{nombre: "Juan", edad: 15}, {nombre: "Carlos", edad: 25}]
+    + > db.personas.insertMany(arreglo)
+2. Commit Video 30:
+    + $ git add .
+    + $ git commit -m "Commit 030: Arreglos"
+    + $ git push -u origin main
+
 
 
 0.35 - x
