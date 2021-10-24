@@ -324,9 +324,9 @@
 6. Ejecutar: **Robo 3T.exe** y conectar con la base de datos **localhost** para navegar por las distintas colecciones y documentos.
 7. Salir de MongoDB:
     + > exit
-8.  Commit Video 24:
+8.  Commit Video 25:
     + $ git add .
-    + $ git commit -m "Commit 024: Insertando datos con insert"
+    + $ git commit -m "Commit 025: Insertando datos con insert"
     + $ git push -u origin main
 
 ### Tarea 01: Ejercicio insert
@@ -382,8 +382,34 @@
     + $ git push -u origin main
 
 ### Tarea 02: Ejercicio con InserOne
+1. Levantar servidor de MongoDB:
+    + $ mongod
+2. Ejecutar consola de MongoDB:
+    + $ mongo
+3. Ir a la base de datos **principio**:
+    + use tarea02
+4. Anexar documentos a la colección **sitios**:
+    + db.sitios.insertOne({sitio: "Soluciones++", visitas: 33, compartidos: 12, created_at: new Date()})
+    + db.sitios.insertOne({sitio: "Herramientas Office", visitas: 37, compartidos: 3, created_at: new Date()})
+    + db.sitios.insertOne({sitio: "Google", visitas: 733, compartidos: 512, created_at: new Date()})
+    + db.sitios.insertOne({sitio: "Amazon", visitas: 933, compartidos: 712, created_at: new Date()})
+    + db.sitios.insertOne({sitio: "Azure", visitas: 433, compartidos: 212, created_at: new Date()})
+5.  Commit Tarea 02:
+    + $ git add .
+    + $ git commit -m "Commit Tarea 02: Ejercicio con InserOne"
+    + $ git push -u origin main
+
 ### Video 28. Insertando datos con insert One en robo 3T
+
+6.  Commit Video 28:
+    + $ git add .
+    + $ git commit -m "Commit 028: Insertando datos con insert One en robo 3T"
+    + $ git push -u origin main
+    + 
 ### Video 29. Insertando Datos con insert Many
+
+
+
 ### Video 30. Arreglos
 
 
