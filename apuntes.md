@@ -407,8 +407,11 @@
     + $ git push -u origin main
 
 ### Video 29. Insertando Datos con insert Many
-
-
++ **Contenido**: insertar registros con **insertMany** en **Robo 3T**.
+1.  Commit Video 29:
+    + $ git add .
+    + $ git commit -m "Commit 029: Insertando Datos con insert Many"
+    + $ git push -u origin main
 
 ### Video 30. Arreglos
 
