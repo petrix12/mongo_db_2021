@@ -423,6 +423,30 @@
     + $ git commit -m "Commit 030: Arreglos"
     + $ git push -u origin main
 
+## Sección 07: Eliminación de datos en MongoDB
+
+### Video 31. Eliminando documentos mediante la shell de mongoDB
+1. Ejemplo para eliminar documentos:
+    + db.registro.remove({Nombre: "Pedro"})
+2. Commit Video 31:
+    + $ git add .
+    + $ git commit -m "Commit 031: Eliminando documentos mediante la shell de mongoDB"
+    + $ git push -u origin main
+
+### Video 32. Eliminando documentos mediante robo 3T
++ **Contenido**: como eliminar uno o varios documentos en robo 3T.
+1. Commit Video 32:
+    + $ git add .
+    + $ git commit -m "Commit 032: Eliminando documentos mediante robo 3T"
+    + $ git push -u origin main
+
+### Video 33. Eliminando colecciones mediante la shell de mongoDB
+
+
+
+### Video 34. Eliminando colecciones mediante robo 3T
+
+
 
 
 0.35 - x
