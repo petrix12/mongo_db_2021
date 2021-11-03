@@ -441,10 +441,38 @@
     + $ git push -u origin main
 
 ### Video 33. Eliminando colecciones mediante la shell de mongoDB
-
-
+1. Eliminar una colección:
+    + $ db.coleccion.drop({})
+2. Commit Video 33:
+    + $ git add .
+    + $ git commit -m "Commit 033: Eliminando colecciones mediante la shell de mongoDB"
+    + $ git push -u origin main
 
 ### Video 34. Eliminando colecciones mediante robo 3T
++ **Contenido**: como eliminar una colección en robo 3T.
+1. Commit Video 33:
+    + $ git add .
+    + $ git commit -m "Commit 033: Eliminando colecciones mediante robo 3T"
+    + $ git push -u origin main
+
+## Sección 08: Actualización de datos en MongoDB
+
+### Video 34. Actualizando datos en documentos mediante la función save ()
+
+
+
+1. Commit Video 34:
+    + $ git add .
+    + $ git commit -m "Commit 034: Actualizando datos en documentos mediante la función save"
+    + $ git push -u origin main
+
+### Video 35. Actualizando datos en documentos mediante la función save () robo 3t
+### Video 36. Actualizando datos en documentos mediante la función update en la shell
+### Video 37. Actualizando datos en documentos mediante la función update en Robo 3T
+### Video 38. Aplicando método set
+### Video 39. Aplicando metodo set en robo 3T
+### Video 40. Incrementación de datos
+### Video 41. Incrementación de datos en robo 3T
 
 
 
