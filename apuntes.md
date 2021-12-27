@@ -1,3 +1,4 @@
++ **CURSO CANCELADO**
 # Curso Completo de Bases de datos MongoDB y NoSQL
 + [URL del curso en Udemy](https://www.udemy.com/course/curso-completo-de-bases-de-datos-mongodb-y-nosql)
 + [URL del repositorio en GitHub](https://github.com/petrix12/mongo_db_2021.git)
@@ -457,22 +458,57 @@
 
 ## Sección 08: Actualización de datos en MongoDB
 
-### Video 34. Actualizando datos en documentos mediante la función save ()
-
-
-
-1. Commit Video 34:
+### Video 31. Actualizando datos en documentos mediante la función save ()
+1. Modificar elemento de un documento:
+    + $ var user = db.usuarios.findOne({"_id": ObjectId("61756ab9b28bd2ae72d5b478")})
+    + $ user.Nombre = "Juan"
+    + $ db.usuarios.save(user)
+2. Commit Video 31:
     + $ git add .
-    + $ git commit -m "Commit 034: Actualizando datos en documentos mediante la función save"
+    + $ git commit -m "Commit 031: Actualizando datos en documentos mediante la función save"
     + $ git push -u origin main
 
-### Video 35. Actualizando datos en documentos mediante la función save () robo 3t
-### Video 36. Actualizando datos en documentos mediante la función update en la shell
-### Video 37. Actualizando datos en documentos mediante la función update en Robo 3T
-### Video 38. Aplicando método set
-### Video 39. Aplicando metodo set en robo 3T
-### Video 40. Incrementación de datos
-### Video 41. Incrementación de datos en robo 3T
+### Video 32. Actualizando datos en documentos mediante la función save () robo 3t
++ **Contenido**: iden a la anterior pero en robo 3t.
+1. Commit Video 32:
+    + $ git add .
+    + $ git commit -m "Commit 032: Actualizando datos en documentos mediante la función save"
+    + $ git push -u origin main
+
+### Video 33. Actualizando datos en documentos mediante la función update en la shell
+1. Modificar elemento de un documento:
+    + $ var user = db.usuarios.findOne({"_id": ObjectId("61756ab9b28bd2ae72d5b478")})
+    + $ user.update({"Nombre": "Juan"})
+2. Commit Video 33:
+    + $ git add .
+    + $ git commit -m "Commit 033: Actualizando datos en documentos mediante la función update en la shell"
+    + $ git push -u origin main
+
+### Video 34. Actualizando datos en documentos mediante la función update en Robo 3T
++ **Contenido**: iden a la anterior pero en robo 3t.
+1. Commit Video 34:
+    + $ git add .
+    + $ git commit -m "Commit 034: Actualizando datos en documentos mediante la función update en Robo 3T"
+    + $ git push -u origin main
+
+### Video 35. Aplicando método set
+1. Modificar elemento de un documento:
+    + $ var user = db.usuarios.findOne({"_id": ObjectId("61756ab9b28bd2ae72d5b478")})
+    + $ user.update({"Nombre": "Juan"}, {"$set": {"Edad": 23}})
+2. Commit Video 35:
+    + $ git add .
+    + $ git commit -m "Commit 035: Aplicando método set"
+    + $ git push -u origin main
+
+### Video 36. Aplicando metodo set en robo 3T
++ **Contenido**: iden a la anterior pero en robo 3t.
+1. Commit Video 36:
+    + $ git add .
+    + $ git commit -m "Commit 036: Aplicando metodo set en robo 3T"
+    + $ git push -u origin main
+
+### Video 37. Incrementación de datos
+### Video 38. Incrementación de datos en robo 3T
 
 
 
